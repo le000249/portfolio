@@ -1,0 +1,32 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   
+
+   .navbar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .logo img {
+    width: 100px;
+    height: 100px;
+   }
+   
+   .navbar-items a {
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+   }
+   
+   .navbar-items a:hover {
+    background-color: #ddd;
+    color: black;
+   }
+   
+   .navbar-items a.logo {
+    margin-right: auto;
+   }
