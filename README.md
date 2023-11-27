@@ -21,4 +21,4 @@ I started with the design I did in UX Design I class using Figma. For this proje
 - [GoogleFont] (https://fonts.google.com/)
 
 ## Logo 
-![placeholder](images/logo.pn)
+![placeholder](images/logo.png)
