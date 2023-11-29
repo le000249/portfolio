@@ -51,7 +51,7 @@
 .container a {
     text-decoration: none;
     color: white;
-    font-family: 'Neucha', cursive;
+    font-family: 'Merienda', cursive;
     font-size: 30px;
 }
 
@@ -77,3 +77,55 @@
    .header_container img:nth-child(2) {
     transform: scale(1.0);
    }
+
+   .introduce h1 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center; 
+    font-weight: bold; 
+
+   }
+
+   .introduce {
+    font-family: 'Merienda', cursive;
+    line-height: 2.0;
+    padding: 90px;
+   }
+
+   .introduce p {
+    text-align: center; 
+   }
+
+   .underline {
+    text-decoration: underline;
+    text-decoration-color: #403E3C ;
+    text-decoration-thickness: 0.4rem;
+    color: #8C786C; 
+    font-weight: bold; }
+
+    .group-portrait img {
+        display: block;
+        margin: auto; 
+    }
+
+    footer nav {
+        display: flex;
+        justify-content: space-between; 
+        padding: 20px; 
+    }
+
+    footer nav ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0; 
+    }
+
+    footer nav li a {
+        text-decoration: none; 
+        color: black; 
+        padding: 40px 10px; 
+        font-size: 20px; 
+    }
+
+    .logo img {
+        width: 150px; 
+    }
