@@ -1,36 +1,20 @@
-#header img {
-    background-color: rgba(0,0,0,0.6); 
-}
+.header-logo img {
+    width: 200px;
+padding: 20px;}
 
-.logo h1 {
-    color:white;
-    font-family: 'Kaushan Script', cursive;
+.header-logo {
+    display: flex;
     justify-content: center;
-    margin: 0;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 100px;
-    background-color: rgba(0,0,0,0.6);
-
+    align-items: center;
 }
+
 
 .conatiner {
     max-width: 800px;
     margin: 0 auto; 
     padding: 20px; 
-    background-color: rgba(0,0,0,0.6);
 
 }
-
-.container .content {
-    color: white; 
-    font-family: 'Ephesis', cursive;
-    font-size: 50px;
-    text-align: center;
-    background-color: rgba(0,0,0,0.6);
-    
-}
-
 
 
 .container ul {
@@ -40,7 +24,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgba(0,0,0,0.6);
 }
 
 .container li {
@@ -50,9 +33,10 @@
 
 .container a {
     text-decoration: none;
-    color: white;
-    font-family: 'Merienda', cursive;
+    color: black;
+    font-family: 'DM Serif Display', serif;
     font-size: 30px;
+    margin-top: 20px;
 }
 
 .container a:hover {
@@ -61,22 +45,78 @@
 
 
 
-   .header_container {
+.header_container {
     display: flex;
     justify-content: center;
     width: 100%; 
     margin: 40px 0px; 
+    align-items: center;
+    position: relative;
    }
 
-   .header_container img {
+.header_container img {
     width: 33.33%;
     height: 50%; 
     transform: scale(0.7);
+    z-index: -1;
+    object-fit: cover;
    }
 
-   .header_container img:nth-child(2) {
+.header_container img:nth-child(2) {
     transform: scale(1.0);
+    z-index: -1;
    }
+
+
+.header_container .logo {
+    position: absolute;
+    z-index: 1;
+    color:white;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+    margin-top: -700px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.content {
+    font-family: 'Ephesis', cursive;
+    font-size: 90px;
+    text-align: center;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container a, .flex-container p {
+    display: inline;
+}
+
+
+.content .our-services  {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.content .contact-us  {
+    font-size: 30px;
+    color: black; 
+    text-decoration: none;
+
+}
+
+.flex-container p {
+    font-size: 30px; 
+}
+
+.content a p {
+    text-align: center;
+}
 
    .introduce h1 {
     font-family: 'Kaushan Script', cursive;
