@@ -34,6 +34,7 @@ padding: 20px;}
 .container a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
     font-family: 'DM Serif Display', serif;
     font-size: 30px;
     margin-top: 20px;
@@ -69,5 +70,58 @@ padding: 20px;}
     font-size: 100px;
     font-family: 'Ephesis', cursive;
     font-weight: bold;
+}
+
+.introduce p {
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    margin-left: 60px;
+    margin-right: 50px;
+    line-height: 2.0;
+    text-align: center;
+}
+
+.team-member {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 40px 30px;
+    margin: auto 0; 
+}
+
+.team-member img {
+    width: 300px;
+    align-items: center;
+    display: block;
+    margin-left: 100px;
+    justify-content: space-evenly;
+}
+
+.team-member h2 {
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    font-size: 40px;
+}
+
+.team-member p {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    margin-left: 70px;
+}
+
+.team-member .first img {
+    margin-left: 90px; 
+}
+
+.team-member .second img {
+    margin-left: 100px;
+
+}
+
+.team-member .third img {
+    margin-left: 100px;
+}
+
+.team-member .third p {
+    margin-right: 50px;
 }
 
