@@ -1,0 +1,45 @@
+.header-logo img {
+    width: 200px;
+padding: 20px;}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conatiner {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px; 
+
+}
+
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.container a:hover {
+    color: grey; 
+}
