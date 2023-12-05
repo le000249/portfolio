@@ -263,7 +263,7 @@ padding: 20px;}
   }
   
  
-  @media screen and (min-width: 320px) {
+  @media screen and (min-width: 320px) and (max-width: 768px) {
     /* Adjustments for smaller screens or mobile devices */
   
     .header-logo img {
@@ -272,10 +272,12 @@ padding: 20px;}
     }
   
     .container {
-      padding: 10px; /* Adjust padding for smaller screens */
+      padding: 10px;
+      display:block;  /* Adjust padding for smaller screens */
     }
   
     .container a {
+        display: block;
       font-size: 20px; /* Adjust font size for smaller screens */
       margin-top: 10px; /* Adjust margin for smaller screens */
     }
@@ -309,19 +311,66 @@ padding: 20px;}
         max-width: 200px;
     }
 
-    .footer-logo {
-        max-width: 120px;
-    }
-
-    .col-md-3 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
+    footer {
+        padding: 20px 0;
+        background-color: #267373;
+     }
+    
+     .footer-container {
+        max-width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+     }
+    
+     .footer-logo {
+        max-width: 100%;
+        height: auto;
+        margin-left: 100px;
+     }
+    
+     .row {
+        display: flex;
+        flex-direction: column;
+     }
+    
+     .col-md-3 {
+        margin-bottom: 20px;
+     }
+    
+     h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-left: 130px;
+        text-align: center
+     }
+    
+     ul {
+        list-style-type: none;
+        padding: 0;
+        margin-left: 125px;
+        text-align: center;
+     }
+    
+     li {
+        margin-bottom: 5px;
+     }
+    
+     a {
+        color: #333;
+        text-decoration: none;
+     }
+    
+     p {
+        color: #777;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 30px;
+     }
     }
 }
   
     /* Adjust other styles as needed for smaller screens */
-  }
+
 
   @media screen and (min-width: 320px) and (max-width: 768px) {
     .content .contact-us {
@@ -356,9 +405,9 @@ padding: 20px;}
         max-width: 120px;
     }
 
-    .col-md-3 {
-        -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-        max-width: 50%;
+    .logo {
+        font-size: 20px;
     }
+
+    
 }
