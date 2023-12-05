@@ -43,7 +43,15 @@ padding: 20px;}
     color: grey; 
 }
 
+.logo {
+    text-align: center; 
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+}
 
+.color {
+    color: #267373; 
+}
 
 .header_container {
     display: flex;
@@ -68,18 +76,9 @@ padding: 20px;}
    }
 
 
-.header_container .logo {
-    position: absolute;
-    z-index: 1;
-    color:white;
-    font-family: 'Ephesis', cursive;
-    font-size: 20px;
-    margin-top: -700px;
-    background-color: rgba(0,0,0,0.6);
-}
 
 .content {
-    font-family: 'Ephesis', cursive;
+    font-family: 'Great Vibes', cursive;
     font-size: 90px;
     text-align: center;
 
@@ -139,9 +138,9 @@ padding: 20px;}
 
    .underline {
     text-decoration: underline;
-    text-decoration-color: #403E3C ;
+    text-decoration-color: #2B8C83 ;
     text-decoration-thickness: 0.4rem;
-    color: #8C786C; 
+    color:  #267373; 
     font-weight: bold; }
 
     .group-portrait img {
@@ -151,15 +150,17 @@ padding: 20px;}
 
     .about-us , .our-gallery  {
         text-decoration: none;
-        color: black
+        color: black;
+        font-family: 'Great Vibes', cursive;
+        font-size: 30px;
     }
 
     .name {
-        color: #8C786C; 
+        color: #267373; 
     }
 
  footer {
-    background-color:#8C786C;
+    background-color:#267373;
     color: #fff;
     padding: 30px 0px;
  }
