@@ -293,29 +293,6 @@ padding: 20px;}
     }
 
     @media screen and (min-width: 320px) and (max-width: 768px) {
-    .content .contact-us {
-        font-size: 20px;
-    }
-
-    .flex-container p {
-        font-size: 20px; 
-    }
-
-    .content a p {
-        text-align: center;
-    }
-
-    .introduce h1 {
-        font-size: 36px; 
-    }
-
-    .introduce {
-        padding: 50px;
-    }
-
-    .introduce p {
-        text-align: center; 
-    }
 
     .group-portrait img {
         max-width: 200px;
@@ -421,3 +398,56 @@ padding: 20px;}
 
     
 }
+
+/* Your existing CSS */
+
+/* Media query for screens with a minimum width of 320px and a maximum width of 768px */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .logo {
+      font-size: 25px; /* Adjust the font size for smaller screens */
+    }
+  
+    .header_container {
+      flex-wrap: wrap; /* Allow images to wrap to the next line on smaller screens */
+      margin: 20px 0; /* Adjust margin for smaller screens */
+    }
+  
+    .header_container img {
+      width: 100%; /* Make images fill the container width */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 20px; /* Add space between images for smaller screens */
+      transform: none; /* Reset the transform for smaller screens */
+      z-index: initial; /* Reset the z-index for smaller screens */
+    }
+  }
+  
+  /* Your existing CSS */
+
+/* Media query for screens with a minimum width of 320px and a maximum width of 768px */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .content {
+      font-size: 40px; /* Decrease the font size for smaller screens */
+    }
+  
+    .flex-container {
+      flex-direction: column; /* Stack elements vertically for smaller screens */
+      text-align: center; /* Center-align content for smaller screens */
+    }
+  
+    .flex-container a,
+    .flex-container p {
+      display: block; /* Change to block display for vertical stacking */
+      margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+  
+    .flex-container p {
+      font-size: 20px; /* Decrease font size for smaller screens */
+    }
+  
+    .content .our-services,
+    .content .contact-us {
+      font-size: 20px; /* Decrease font size for smaller screens */
+      text-align: center; /* Center-align text for smaller screens */
+    }
+  }
+  
