@@ -264,22 +264,32 @@ padding: 20px;}
   
  
   @media screen and (min-width: 320px) and (max-width: 768px) {
-    /* Adjustments for smaller screens or mobile devices */
-  
-    .header-logo img {
-      width: 150px; /* Adjust size for smaller screens */
-      padding: 10px; /* Adjust padding for smaller screens */
-    }
-  
-    .container {
-      padding: 10px;
-      display:block;  /* Adjust padding for smaller screens */
-    }
-  
-    .container a {
-        display: block;
-      font-size: 20px; /* Adjust font size for smaller screens */
-      margin-top: 10px; /* Adjust margin for smaller screens */
+    
+      .header-logo {
+        justify-content: space-between; /* Adjust alignment for smaller screens */
+        padding: 10px; /* Decrease padding for smaller screens */
+      }
+    
+      .container {
+        max-width: 90%; /* Adjust the container width for smaller screens */
+        padding: 10px; /* Decrease padding for smaller screens */
+      }
+    
+      .container ul {
+        flex-direction: column; /* Stack navigation vertically for smaller screens */
+        align-items: center; /* Center-align navigation for smaller screens */
+      }
+    
+      .container li {
+        display: block; /* Change list items to block for vertical stacking */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+        text-align: center; /* Center-align list items for smaller screens */
+      }
+    
+      .container a {
+        font-size: 20px; /* Decrease font size for smaller screens */
+        margin-top: 10px; /* Adjust margin for smaller screens */
+      }
     }
 
     @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -367,7 +377,7 @@ padding: 20px;}
         margin-left: 30px;
      }
     }
-}
+
   
     /* Adjust other styles as needed for smaller screens */
 

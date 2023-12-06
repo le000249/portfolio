@@ -82,50 +82,6 @@ padding: 20px;}
 
 }
 
-.team-member {
-    display:flex;
-    justify-content: space-evenly;
-    padding: 40px 30px;
-    margin: auto 0; 
-}
-
-.team-member img {
-    width: 300px;
-    align-items: center;
-    display: block;
-    margin-left: 100px;
-    justify-content: space-evenly;
-}
-
-.team-member h2 {
-    text-align: center;
-    font-family: 'Ephesis', cursive;
-    font-size: 40px;
-}
-
-.team-member p {
-    text-align: center;
-    font-family: 'Merienda', cursive;
-    margin-left: 70px;
-}
-
-.team-member .first img {
-    margin-left: 90px; 
-}
-
-.team-member .second img {
-    margin-left: 100px;
-
-}
-
-.team-member .third img {
-    margin-left: 100px;
-}
-
-.team-member .third p {
-    margin-right: 50px;
-}
-
 
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -213,3 +169,42 @@ footer {
     font-family: 'Merienda', cursive;
 
  }
+
+ @media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .header-logo img {
+        width: 150px; /* Adjust the logo size for smaller screens */
+        padding: 20px; /* Decrease padding for smaller screens */
+        margin-left: 50px;
+      }
+    
+      .header-logo {
+        justify-content: space-between; /* Adjust alignment for smaller screens */
+        padding: 10px; /* Decrease padding for smaller screens */
+      }
+    
+      .container {
+        max-width: 90%; /* Adjust the container width for smaller screens */
+        padding: 10px; /* Decrease padding for smaller screens */
+      }
+    
+      .container ul {
+        flex-direction: column; /* Stack navigation vertically for smaller screens */
+        align-items: center; /* Center-align navigation for smaller screens */
+      }
+    
+      .container li {
+        display: block; /* Change list items to block for vertical stacking */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+        text-align: center; /* Center-align list items for smaller screens */
+      }
+    
+      .container a {
+        font-size: 20px; /* Decrease font size for smaller screens */
+        margin-top: 10px; /* Adjust margin for smaller screens */
+      }
+        .container-header { padding: 20px; }
+        .container-header .heading { font-size: 40px; }
+        .container-header img { object-fit: cover; z-index: -1; opacity: 0.5; max-width: 100%; height: auto; } }
+
+ 

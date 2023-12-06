@@ -246,3 +246,199 @@ footer {
     font-family: 'Merienda', cursive;
 
  }
+
+ /* Your existing CSS */
+
+/* Media query for screens with a minimum width of 320px and a maximum width of 768px */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .header-logo img {
+      width: 150px; /* Adjust the logo size for smaller screens */
+      padding: 20px; /* Decrease padding for smaller screens */
+      margin-left: 50px;
+    }
+  
+    .header-logo {
+      justify-content: space-between; /* Adjust alignment for smaller screens */
+      padding: 10px; /* Decrease padding for smaller screens */
+    }
+  
+    .container {
+      max-width: 90%; /* Adjust the container width for smaller screens */
+      padding: 10px; /* Decrease padding for smaller screens */
+    }
+  
+    .container ul {
+      flex-direction: column; /* Stack navigation vertically for smaller screens */
+      align-items: center; /* Center-align navigation for smaller screens */
+    }
+  
+    .container li {
+      display: block; /* Change list items to block for vertical stacking */
+      margin: 10px 0; /* Adjust margin for smaller screens */
+      text-align: center; /* Center-align list items for smaller screens */
+    }
+  
+    .container a {
+      font-size: 20px; /* Decrease font size for smaller screens */
+      margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+  }
+  
+
+ @media screen and (min-width: 320px) and (max-width: 768px) {
+
+      .heading .first_line {
+        line-height: 20px;
+      }
+
+      .heading { 
+        line-height: 20px; 
+        padding: 20px; 
+    } 
+      .heading h2 { 
+        font-family: 'Old Standard TT', serif; 
+        margin-left: 100px; 
+        font-size: 20px; 
+        line-height: 10px;
+    } 
+      .heading p { 
+        font-family: 'Great Vibes', cursive; 
+        font-size: 30px; 
+        text-align: center;
+     } 
+      .heading h3 { font-family: 'Merienda', cursive; 
+        font-size: 15px; }
+ }
+
+ @media screen and (min-width: 320px) and (max-width: 768px) {
+    .heading-form {
+      display: block;
+      padding: 20px; /* Adjust as needed for smaller screens */
+    }
+  
+    .heading-form img {
+      width: 100%; /* Make the image fill the container */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    .heading-form .book-album {
+      font-size: 40px; /* Decrease font size for smaller screens */
+      padding: 20px; /* Adjust padding for smaller screens */
+      text-align: center; /* Center-align text */
+    }
+  
+    .second {
+      font-size: 12px; /* Decrease font size for smaller screens */
+      margin-left: 0; /* Remove margin for smaller screens or adjust as needed */
+      text-align: center; /* Center-align text */
+    }
+  
+    .heading-form.column {
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  
+    .album-form {
+      padding: 15px; /* Adjust padding for smaller screens */
+      margin: 20px auto; /* Adjust margin for smaller screens */
+      max-width: 90%; /* Make the form slightly narrower on smaller screens */
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%; /* Make input fields full width */
+    }
+  
+    button[type="submit"] {
+      width: 100%; /* Make the button full width */
+      margin-top: 10px; /* Add some space between input fields and the button */
+    }
+  }
+
+  /* Your existing CSS */
+
+/* Media query for screens with a minimum width of 320px and a maximum width of 768px */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .information {
+      flex-direction: column; /* Stack elements vertically */
+    }
+  
+    .information .second-line {
+      margin-left: 0; /* Reset margin for second line */
+      text-align: center; /* Center-align text */
+    }
+  
+    .information .first-line {
+      margin-bottom: 1em; /* Adjust margin for first line */
+      font-size: 25px; /* Decrease font size */
+      text-align: center; /* Center-align text */
+    }
+  
+    .information h2 {
+      margin-left: 0; /* Reset margin for h2 */
+      text-align: center; /* Center-align h2 */
+    }
+  
+    .information ul {
+      margin-left: 0; /* Reset margin for ul */
+      text-align: center; /* Center-align ul */
+    }
+  
+    .information li {
+      margin-bottom: 0.5em; /* Adjust margin for li */
+      text-align: center; /* Center-align li */
+    }
+  
+    iframe {
+      margin-left: 0; /* Reset margin for iframe */
+      margin-bottom: 20px; /* Adjust margin for iframe */
+      width: 100%; /* Make iframe fill the container */
+    }
+  }
+  
+  /* Your existing CSS */
+
+/* Media query for screens with a minimum width of 320px and a maximum width of 768px */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .footer-logo {
+      max-width: 100px; /* Adjust the logo size for smaller screens */
+      margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    .footer-container {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .row {
+      margin-right: -10px; /* Adjust margin for smaller screens */
+      margin-left: -10px; /* Adjust margin for smaller screens */
+    }
+  
+    .col-md-3 {
+      -ms-flex: 0 0 50%; /* Adjust column width for smaller screens */
+      flex: 0 0 50%; /* Adjust column width for smaller screens */
+      max-width: 50%; /* Adjust column width for smaller screens */
+      padding: 0 10px; /* Add spacing between columns for smaller screens */
+      margin-bottom: 20px; /* Add margin between columns for smaller screens */
+    }
+  
+    .col-md-3 h5 {
+      font-size: 20px; /* Decrease heading font size for smaller screens */
+      margin-bottom: 15px; /* Adjust margin for smaller screens */
+    }
+  
+    .col-md-3 ul {
+      margin-bottom: 15px; /* Adjust margin for smaller screens */
+    }
+  
+    .col-md-3 li a {
+      font-size: 14px; /* Decrease font size for smaller screens */
+      line-height: 20px; /* Adjust line height for smaller screens */
+    }
+  
+    .col-md-3 p {
+      font-size: 14px; /* Decrease font size for smaller screens */
+      line-height: 20px; /* Adjust line height for smaller screens */
+    }
+  }
+  
